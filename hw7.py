@@ -47,7 +47,7 @@ class Loto:
         print('{0[0]} {0[1]:<5} {0[2]:<5} {0[3]:<5} {0[4]} '.format(card_player[2]))
         print('{:-^25}'.format('-'))
 
-    # Поиск номера на карточке и определение победителя
+        
     def search(self, card_player, num_cask):
         for i, n in enumerate(card_player):
             if num_cask in n:
